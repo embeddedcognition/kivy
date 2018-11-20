@@ -1,0 +1,18 @@
+#:kivy 1.8.0
+<MainWidget>:
+	GridLayout:
+		size: root.size
+		rows: 2
+		cols: 2
+		spacing: 10
+		Button:
+			text: "Button 1"
+		Image:
+            source: "vuYdk.png"
+            size_hint_y: None  # Tells the layout to ignore the size_hint in y dir
+    		height: dp(300)  # The fixed height you want
+    		width: dp(500)  # The fixed height you want
+		Button:
+			text: "Button 3"
+		Button:
+			text: "Button 4"
